@@ -1,17 +1,30 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A12,40:0B3D2E,70:059669,100:F59E0B&height=260&section=header&text=WoolVision&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=37&desc=AI%20Powered%20Wool%20Quality%20Detection%20%26%20Analysis&descAlignY=62&descSize=18" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=FBBF24&center=true&vCenter=true&width=850&lines=AI-Powered+Wool+Quality+Detection;Computer+Vision+%2B+Machine+Learning;Real-Time+Image+Analysis;Smart+Agriculture+%7C+Smart+Textiles;Turning+Wool+Images+into+Actionable+Insights" alt="Typing SVG"/>
+
+<br><br>
+
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![TensorFlow Lite](https://img.shields.io/badge/TensorFlow-Lite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Computer%20Vision-059669?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge)
+
+<br><br>
+
+**🐑 Intelligent Wool Analysis • 📷 Computer Vision • 🤖 On-Device AI**
+
+</div>
+
+---
+
 # 🐑 WoolVision
+
 ### AI-Powered Wool Quality Detection & Analysis
 
 An intelligent Flutter application that leverages **Artificial Intelligence**, **Computer Vision**, and **Machine Learning** to analyze wool quality in real-time, helping farmers, manufacturers, and buyers make faster and more accurate quality assessments.
-
-![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter)
-![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart)
-![TensorFlow Lite](https://img.shields.io/badge/TensorFlow-Lite-FF6F00?style=for-the-badge&logo=tensorflow)
-![AI](https://img.shields.io/badge/AI-Computer%20Vision-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
-</div>
 
 ---
 
@@ -41,22 +54,41 @@ The objective of this project is to modernize wool quality assessment through AI
 # 🧠 AI Workflow
 
 ```text
-User Image
-      │
-      ▼
-Image Preprocessing
-      │
-      ▼
-AI / ML Model
-      │
-      ▼
-Feature Extraction
-      │
-      ▼
-Quality Prediction
-      │
-      ▼
-Display Results
+                         🐑 WOOL SAMPLE
+                              │
+                              ▼
+                     ┌──────────────────┐
+                     │   User Image     │
+                     └────────┬─────────┘
+                              │
+                              ▼
+                     ┌──────────────────┐
+                     │ Image            │
+                     │ Preprocessing    │
+                     └────────┬─────────┘
+                              │
+                              ▼
+                     ┌──────────────────┐
+                     │ AI / ML Model    │
+                     │ TensorFlow Lite  │
+                     └────────┬─────────┘
+                              │
+                              ▼
+                     ┌──────────────────┐
+                     │ Feature          │
+                     │ Extraction       │
+                     └────────┬─────────┘
+                              │
+                              ▼
+                     ┌──────────────────┐
+                     │ Quality          │
+                     │ Prediction       │
+                     └────────┬─────────┘
+                              │
+                              ▼
+                     ┌──────────────────┐
+                     │ Display Results  │
+                     └──────────────────┘
 ```
 
 ---
@@ -89,7 +121,7 @@ lib/
 # 🛠️ Tech Stack
 
 | Technology | Purpose |
-|------------|---------|
+|---|---|
 | Flutter | Cross-platform App Development |
 | Dart | Programming Language |
 | TensorFlow Lite | On-device AI Inference |
@@ -101,35 +133,35 @@ lib/
 
 # 📱 Screens
 
-Add screenshots inside the `assets/screenshots/` folder.
+> Add screenshots inside the `assets/screenshots/` folder.
 
 | Home | Camera | Prediction | Results |
-|------|---------|------------|----------|
-| ![](assets/screenshots/home.png) | ![](assets/screenshots/camera.png) | ![](assets/screenshots/predict.png) | ![](assets/screenshots/result.png) |
+|---|---|---|---|
+| | | | |
 
 ---
 
 # 🚀 Getting Started
 
-## Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/hrushikesh1199/WoolVision.git
 ```
 
-Navigate into the project
+### Navigate into the project
 
 ```bash
 cd WoolVision
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 flutter pub get
 ```
 
-Run the application
+### Run the application
 
 ```bash
 flutter run
@@ -139,7 +171,7 @@ flutter run
 
 # 📦 Dependencies
 
-Example dependencies
+Example dependencies:
 
 ```yaml
 flutter
@@ -156,7 +188,7 @@ path_provider
 # 📂 Folder Structure
 
 ```text
-WoolVision
+WoolVision/
 │
 ├── android/
 ├── ios/
@@ -196,19 +228,19 @@ WoolVision
 
 # 📈 Project Highlights
 
-✔ Flutter Cross-platform Application
+<div align="center">
 
-✔ AI-powered Image Analysis
+| Capability | |
+|---|---|
+| Flutter Cross-platform Application | ✔ |
+| AI-powered Image Analysis | ✔ |
+| Computer Vision Based Detection | ✔ |
+| Modern Material UI | ✔ |
+| Fast Mobile Inference | ✔ |
+| Scalable Architecture | ✔ |
+| Clean Code Structure | ✔ |
 
-✔ Computer Vision Based Detection
-
-✔ Modern Material UI
-
-✔ Fast Mobile Inference
-
-✔ Scalable Architecture
-
-✔ Clean Code Structure
+</div>
 
 ---
 
@@ -247,20 +279,35 @@ This project is licensed under the MIT License.
 
 # 👨‍💻 Developer
 
+<div align="center">
+
 **Hrushikesh Pawar**
 
 Cybersecurity Enthusiast • Flutter Developer • AI & Computer Vision Learner
 
-GitHub:
-https://github.com/hrushikesh1199
+<br>
 
-LinkedIn:
-https://www.linkedin.com/in/hrushikesh-pawar
+<a href="https://github.com/hrushikesh1199">
+<img src="https://img.shields.io/badge/GitHub-hrushikesh1199-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/hrushikesh-pawar">
+<img src="https://img.shields.io/badge/LinkedIn-Hrushikesh%20Pawar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
----
+</div>
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,35:059669,70:0B3D2E,100:071A12&height=150&section=footer" width="100%"/>
+
+🐑 AI • Agriculture • Computer Vision • Innovation
+
+<br>
+
 ⭐ If you found this project helpful, consider giving it a star!
+
+<br>
+
+<sub>Built with Flutter • Dart • TensorFlow Lite • Computer Vision</sub>
 
 </div>
